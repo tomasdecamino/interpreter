@@ -1,9 +1,9 @@
-from roboboard import RoboBoard
-from interpreter import *
+from ideaboard import IdeaBoard
+from interpreter import Interpreter
 from time import sleep_ms
 
-rb = RoboBoard()
-inter = interpreter()
+rb = IdeaBoard()
+inter = Interpreter()
 
 #define functions (using non just to get a None parameter)
 def redColor(non):
